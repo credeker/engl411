@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,400i');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #505050;
+  color: white;
+  font-family:'Lora', serif;
+}
+
+.center-column {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  padding: .5em 0;
+  border-bottom: 2px solid #0A7E8C;
+}
+
+nav a {
+  display: inline-block;
+  width: 130px;
+  color: white;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+nav .location {
+  border-top: 2px solid white;
+}
+
+nav .location:hover {
+  border-top: 2px solid #0A7E8C;
+}
+
+nav a:hover {
+  border-top: 2px solid #0A7E8C;
+}
+
+
+.center-column h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  border-bottom: 4px solid #197319;
+  padding: 1.5rem 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.info-box {
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+.info-box div {
+  width: 70%;
+}
+
+.info-box h2 {
+  width: 30%;
+  padding-top: 0;
+}
+
+.story-container {
+  margin-top: 4rem;
+}
+
+.story-box{
+  margin: 2rem 0;
+  border-bottom: 2px solid #0A7E8C;
+  padding-bottom: 1rem;
+
+}
+
+.story-box .image-container {
+  width: 25%;
+  height: 25%;
+  margin-right: 1rem;
+  float: left;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-top: .5rem;
+}
+
+h3 {
+  padding-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+p{
+  line-height: 1.6;
+  padding-bottom: 1rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 940px) and (min-width: 700px) {
+    html {
+      font-size: 12px;
+    }
+
+    .center-column{
+      width: 600px;
+    }
+
+    nav a {
+      width: 85px;
+    }
+}
+
+#frankenstein nav .location,
+#frankenstein .location:hover,
+#frankenstein a:hover
+ {
+  border-top: 2px solid #197319;
+}
+
+#frankenstein .nav-container,
+#frankenstein .story-box {
+  border-bottom: 2px solid #197319;
+}
+
+@media only screen and (max-width: 591px){
+  .story-box .image-container {
+
+}
+
+
+/* Frankenstein Color
+{
+  border: 2px solid #197319;
+}
