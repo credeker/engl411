@@ -15,37 +15,6 @@ body {
   margin: 0 auto;
 }
 
-.nav-container {
-  padding: .5em 0;
-  border-bottom: 2px solid #0A7E8C;
-}
-
-nav a {
-  display: inline-block;
-  width: 130px;
-  color: white;
-  font-size: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-right: 1.5rem;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-nav .location {
-  border-top: 2px solid white;
-}
-
-nav .location:hover {
-  border-top: 2px solid #0A7E8C;
-}
-
-nav a:hover {
-  border-top: 2px solid #0A7E8C;
-}
-
-
 .center-column h1 {
   font-size: 4.5rem;
   font-weight: 700;
@@ -106,6 +75,10 @@ p{
   padding-bottom: 1rem;
 }
 
+a {
+  color: white;
+}
+
 .italic {
   font-style: italic;
 }
@@ -124,14 +97,6 @@ p{
     }
 }
 
-#frankenstein nav .location,
-#frankenstein .location:hover,
-#frankenstein a:hover
- {
-  border-top: 2px solid #197319;
-}
-
-#frankenstein .nav-container,
 #frankenstein .story-box {
   border-bottom: 2px solid #197319;
 }
