@@ -103,6 +103,7 @@ a {
 
 @media only screen and (max-width: 591px){
   .story-box .image-container {
+    diplay: none;
 
 }
 
