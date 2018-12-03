@@ -24,19 +24,6 @@ body {
 
 }
 
-.info-box {
-  display: flex;
-  padding-top: 1.5rem;
-}
-
-.info-box div {
-  width: 70%;
-}
-
-.info-box h2 {
-  width: 30%;
-  padding-top: 0;
-}
 
 .story-container {
   margin-top: 4rem;
@@ -46,14 +33,17 @@ body {
   margin: 2rem 0;
   border-bottom: 2px solid #0A7E8C;
   padding-bottom: 1rem;
+  display: flex;
 
 }
 
 .story-box .image-container {
   width: 25%;
-  height: 25%;
   margin-right: 1rem;
-  float: left;
+}
+
+.story-box .text-box {
+  width: 75%;
 }
 
 img {
@@ -92,18 +82,25 @@ a {
       width: 600px;
     }
 
-    nav a {
-      width: 85px;
-    }
-}
+  }
+
+
 
 #frankenstein .story-box {
   border-bottom: 2px solid #197319;
 }
 
 @media only screen and (max-width: 591px){
+  html {
+    font-size: 12px;
+  }
+
+  .center-column{
+    width: 80%;
+  }
+
   .story-box .image-container {
-    diplay: none;
+    display: none;
 
 }
 
